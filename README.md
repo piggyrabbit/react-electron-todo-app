@@ -1,3 +1,5 @@
+# npm run build 명령어로 실행파일 빌드 가능
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

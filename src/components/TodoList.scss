@@ -1,0 +1,18 @@
+.TodoList {
+  min-height: 320px;
+  max-height: 513px;
+  overflow-y: auto;
+
+  overflow: hidden;
+
+  // 웹킷 기반 브라우저용 스크롤바 숨기기
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  // IE, Edge용
+  -ms-overflow-style: none;
+
+  // Firefox용
+  scrollbar-width: none;
+}
